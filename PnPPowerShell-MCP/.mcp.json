@@ -1,0 +1,15 @@
+{
+  "inputs": [],
+  "servers": {
+    "PnPPowerShell-MCP": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "./PnPPowerShell-MCP.csproj"
+      ],
+      "env": {}
+    }
+  }
+}
